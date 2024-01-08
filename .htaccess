@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+Redirect 301 /contact.html  http://localhost/Jewelswebnet/index.php
+
+
+ErrorDocument 404 /notfound.php
