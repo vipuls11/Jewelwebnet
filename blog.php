@@ -17,7 +17,6 @@
 } */
 
 .blog-card {
-    /* margin-top: 100px; */
   display: flex;
   flex-direction: column;
   margin: 150px auto;
@@ -34,7 +33,7 @@
   color: inherit;
 }
 .blog-card a:hover {
-  color: #5ad67d;
+  color: black;
 }
 .blog-card:hover .photo {
   transform: scale(1.3) rotate(3deg);
@@ -75,13 +74,13 @@
 }
 .blog-card .details a {
   -webkit-text-decoration: dotted underline;
-          text-decoration: dotted underline;
+    text-decoration: dotted underline;
 }
 .blog-card .details ul li {
   display: inline-block;
 }
 .blog-card .details .author:before {
-  font-family: FontAwesome;
+  /* font-family: FontAwesome; */
   margin-right: 10px;
   content: "";
 }
@@ -91,7 +90,7 @@
   content: "";
 }
 .blog-card .details .tags ul:before {
-  font-family: FontAwesome;
+  /* font-family: FontAwesome; */
   content: "";
   margin-right: 10px;
 }
@@ -107,10 +106,10 @@
   position: relative;
   z-index: 1;
 }
-.blog-card .description h1,
+/* .blog-card .description h1,
 .blog-card .description h2 {
   font-family: Poppins, sans-serif;
-}
+} */
 .blog-card .description h1 {
   line-height: 1;
   margin: 0;
@@ -127,7 +126,7 @@
   text-align: right;
 }
 .blog-card .description .read-more a {
-  color: #5ad67d;
+  color: #082366;
   display: inline-block;
   position: relative;
 }
@@ -154,7 +153,7 @@
   content: "";
   position: absolute;
   height: 5px;
-  background: #5ad67d;
+  background: #082366;
   width: 35px;
   top: -0.75rem;
   border-radius: 3px;
@@ -249,5 +248,70 @@
     </div>
   </div>
 </div>
+<!-- 
+...............................blogs..................................... -->
+
+<div class="container mx-auto lg:mb-10 my-10 px-8">
+        <div class="text-center py-10">
+    <h3 class=" uppercase text-red-800 text-3xl font-semibold">OUR BLOGS</h3>
+    <h4 class=" text-xl font-extrabold mt-4 text-sky-950 ">Read Our Latest Blogs</h4>
+    </div>
+    <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-10 ">
+        <div  class=" card hover:drop-shadow-xl border overflow-hidden">
+            <div class="h-60">
+            <img src="img/Blog images/Much Long Life of The Equipment.jpg" alt="" class="bg-cover w-full h-full hover:scale-110 transition duration-700 ease-in-out">
+        </div>
+            <div class="p-4 bg-white">
+            <span class="my-2 text-red-600 text-sm">April 17, 2023</span> /
+                <span class="my-2 text-red-600 text-sm">Auth by, Sachin</span>
+                <h3 class="my-2 text-2xl font-semibold text-sky-950 hover:text-red-600 cursor-pointer">Top 10 Benefits of Computer Annual Maintenance Services.</h3>
+               <div class="border-t border-gray-400">
+                <button class="border border-red-700 hover:border-sky-800 mt-2 bg-red-600 hover:bg-sky-950 text-white hover:text-red-600 text-sm font-semibold px-4 py-2 rounded-md my-2"> <a href="https://www.oriflammeitsolutions.com/blogs/top-10-benefits-of-computer-annual-maintenance-services" target="_blank">Read More</a></button>
+                </div>
+        </div>
+        </div>
+        
+        <div  class="card hover:drop-shadow-xl border overflow-hidden">
+            <div class="h-60">
+            <img src="img/marketing.jpg" alt="" class="bg-cover w-full h-full hover:scale-110 transition duration-700 ease-in-out">
+        </div>
+            <div class="p-4 bg-white">
+            <span class="my-2 text-red-600 text-sm">April 17, 2023</span> /
+                <span class="my-2 text-red-600 text-sm">Auth by, Sachin</span>
+                <h3 class="my-2 text-2xl font-semibold text-sky-950 hover:text-red-600 cursor-pointer">Supercharge Your Business with Expert IT Support: Find the Best Helpdesk Company in Andheri!</h3>
+               <div class="border-t border-gray-400">
+                <button class="border border-red-700 hover:border-sky-800 mt-2 bg-red-600 hover:bg-sky-950 text-white hover:text-red-600 text-sm font-semibold px-4 py-2 rounded-md my-2">Read More</button>
+                </div>
+        </div>
+        </div>
+
+        <div class=" card hover:drop-shadow-xl border overflow-hidden">
+            <div class="h-60">
+            <img src="img/Top-notch IT Services.png" alt="" class="bg-cover w-full h-full hover:scale-110 transition duration-700 ease-in-out">
+        </div>
+            <div class="p-4 bg-white">
+            <span class="my-2 text-red-600 text-sm">April 17, 2023</span> /
+                <span class="my-2 text-red-600 text-sm">Auth by, Sachin</span>
+                <h3 class="my-2 text-2xl font-semibold text-sky-950 hover:text-red-600 cursor-pointer">Streamline Your Operations with Top-notch IT Services: Unleash the Potential of Your Business!</h3>
+               <div class="border-t border-gray-400">
+                <button class="border border-red-700 hover:border-sky-800 mt-2 bg-red-600 hover:bg-sky-950 text-white hover:text-red-600 text-sm font-semibold px-4 py-2 rounded-md my-2">Read More</button>
+                </div>
+        </div>
+        </div>
+        <div class=" card hover:drop-shadow-xl border overflow-hidden">
+            <div class="h-60">
+            <img src="img/Top-notch IT Services.png" alt="" class="bg-cover w-full h-full hover:scale-110 transition duration-700 ease-in-out">
+        </div>
+            <div class="p-4 bg-white">
+                <span class="my-2 text-red-600 text-sm">April 17, 2023</span> /
+                <span class="my-2 text-red-600 text-sm">Auth by, Sachin</span>
+                <h3 class="my-2 text-lg font-semibold text-sky-950 hover:text-red-600 cursor-pointer">Streamline Your Operations with Top-notch IT Services: Unleash the Potential of Your Business!</h3>
+               <div class="border-t border-gray-400">
+                <button class="border border-red-700 hover:border-sky-800 mt-2 bg-red-600 hover:bg-sky-950 text-white hover:text-red-600 text-sm font-semibold px-4 py-2 rounded-md my-2">Read More</button>
+                </div>
+        </div>
+        </div>
+        </div>
+    </div>
 
 <?php include ("footer.php")?>
