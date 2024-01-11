@@ -165,6 +165,7 @@
   .blog-card {
     flex-direction: row;
     max-width: 700px;
+    
   }
   .blog-card .meta {
     flex-basis: 40%;
@@ -197,7 +198,7 @@
   }
 }
 </style>
-<div>
+<div class="">
 <div class="blog-card">
     <div class="meta">
       <div class="photo" style="background-image: url(https://storage.googleapis.com/chydlx/codepen/blog-cards/image-1.jpg)"></div>
